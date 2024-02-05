@@ -15,8 +15,7 @@ void main() {
         ),
         body: const Center(
           child: Image(
-            image: NetworkImage(
-                'https://www.smhi.se/polopoly_fs/1.3897.1490013558!/image/polarskenwiki.jpg_gen/derivatives/Original_542px/image/polarskenwiki.jpg'),
+            image: AssetImage('images/diamond.png'),
           ),
         ),
       ),
